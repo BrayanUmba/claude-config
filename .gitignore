@@ -1,0 +1,18 @@
+# Archivos sensibles y temporales de Claude
+.claude/history.jsonl
+.claude/sessions/
+.claude/cache/
+.claude/debug/
+.claude/downloads/
+.claude/paste-cache/
+.claude/shell-snapshots/
+.claude/stats-cache.json
+.claude/mcp-needs-auth-cache.json
+.claude/todos/
+.claude/projects/
+.claude/ide/
+.claude/session-env/
+.claude/file-history/
+.claude/backups/
+.claude/plugins/
+.claude/settings.local.json

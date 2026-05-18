@@ -1,0 +1,38 @@
+{
+  "hasTrustDialogAccepted": true,
+  "permissions": {
+    "allow": [
+      "Bash(sudo apt *)"
+    ]
+  },
+  "companyAnnouncements": [
+    "DevSecOps: la seguridad no es una fase, es una cultura. Shift left, ship safe.",
+    "Todo pipeline sin seguridad es una puerta abierta. Hoy es buen dia para cerrarla.",
+    "DORA metrics + security gates = entregas rapidas y confiables. Tu mision diaria.",
+    "Cada commit es una oportunidad de hacer el sistema mas seguro. Aprovechala."
+  ],
+  "statusLine": {
+    "type": "command",
+    "command": "/home/brayan/.claude/statusline.sh",
+    "refreshInterval": 30
+  },
+  "theme": "dark-ansi",
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/brayan/.claude/devsecops-news.sh",
+            "timeout": 12,
+            "statusMessage": "Cargando noticia DevSecOps..."
+          }
+        ]
+      }
+    ]
+  }
+}
