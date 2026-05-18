@@ -16,6 +16,38 @@
     "command": "/home/brayan/.claude/statusline.sh",
     "refreshInterval": 30
   },
+  "spinnerTipsEnabled": true,
+  "spinnerTips": {
+    "excludeDefault": true,
+    "tips": [
+      "KISS: La solución más simple que funcione siempre gana.",
+      "DRY: Si lo escribiste tres veces, abstráelo.",
+      "YAGNI: No construyas lo que no necesitas hoy.",
+      "SOLID·S: Una clase, una sola razón para cambiar.",
+      "SOLID·O: Abierto para extender, cerrado para modificar.",
+      "SOLID·D: Depende de abstracciones, no de implementaciones.",
+      "Clean Code: El código bien escrito se explica solo.",
+      "Boy Scout Rule: Deja el código más limpio de como lo encontraste.",
+      "Shift Left: La seguridad se integra desde el primer commit.",
+      "Least Privilege: El mínimo acceso necesario, nada más.",
+      "Zero Trust: Nunca asumir confianza. Siempre verificar.",
+      "Fail Securely: En caso de error, falla seguro, no expongas datos.",
+      "Secrets Management: Cero secretos en el código. Usa vaults.",
+      "Input Validation: Nunca confiar en datos externos.",
+      "Defense in Depth: Múltiples capas de seguridad, nunca solo una.",
+      "GitOps: Git es la única fuente de verdad.",
+      "IaC: Toda infraestructura como código, versionada y revisable.",
+      "Immutable Infrastructure: No parchear en prod. Reemplazar.",
+      "Twelve-Factor: Configuración en entorno, logs como streams.",
+      "Observability: Si no puedes medirlo, no puedes mejorarlo.",
+      "Conway's Law: Tu arquitectura refleja la estructura de tu equipo.",
+      "Circuit Breaker: Falla rápido, recupera rápido.",
+      "Idempotency: La misma operación, N veces, mismo resultado.",
+      "TDD: Escribe el test antes que el código.",
+      "Chaos Engineering: Rompe el sistema antes de que lo haga la realidad.",
+      "OWASP: Conoce las 10 vulnerabilidades más críticas. Protégete."
+    ]
+  },
   "theme": "dark-ansi",
   "attribution": {
     "commit": "",
